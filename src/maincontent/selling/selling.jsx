@@ -53,7 +53,7 @@ function BestSelling(){
                                     </div>
                                 </div>
                             </div> 
-                            <div className="flex">
+                            <div className="flex my-[2.5rem]">
                                 <button className=' btn bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium '>Buy Now</button>
                                 <button className='btn bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium'>View Product</button>
                             </div>

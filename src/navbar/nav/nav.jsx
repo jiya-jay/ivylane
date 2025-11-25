@@ -130,7 +130,7 @@ function Nav() {
                 {navItems.map((navItem, index) => (
                     <div className="relative group" key={index}>
                         {navItem.type ? (
-                            <button className="cursor-pointer">{navItem.name}</button>
+                            <button className="btn cursor-pointer">{navItem.name}</button>
                         ) : (
                             <a href={navItem.link} className="hover:text-[#A0E08D] transition-all ease-in-out duration-[500ms]">{navItem.name}</a>
                         )}
