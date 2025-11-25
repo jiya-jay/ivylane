@@ -1,5 +1,4 @@
 import BlogOne from '../../assets/featuredimages/BlogOne.png'
-import BlogTwo from '../../assets/featuredimages/BlogTwo.png'
 import BlogThree from '../../assets/featuredimages/BlogThree.png'
 import BlogFour from '../../assets/featuredimages/BlogFour.png'
 
@@ -11,13 +10,6 @@ const blogs = [
     category: 'Trending Tips & Tricks', 
     img: BlogOne
   },
-//   { 
-//     title: 'How to Purify Your Home Air with Indoor Plants', 
-//     description: 'Learn which indoor plants naturally cleanse the air, making your space healthier and fresher every day.', 
-//     date: new Date().toLocaleDateString(), 
-//     category: 'Plant Care', 
-//     img: BlogTwo
-//   },
   { 
     title: 'Decorating Your Space: Stylish Ways to Display Plants', 
     description: 'Get creative ideas for arranging plants in your home, turning any corner into a beautiful, vibrant green spot.', 
