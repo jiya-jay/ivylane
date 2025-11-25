@@ -1,31 +1,5 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-} */
-
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center; */
   background-color: #131A11 ;
   position: relative;
   min-width: 320px;
@@ -48,20 +22,20 @@ nav button:hover{
 }
 
 button , #slideRight , #slideLeft {
-  margin: 0px 5px;
-  padding: 1rem;
-  border-radius: 3rem;
-  transition: all ease-in-out 0.25s;
+  margin: 0px 5px !important;
+  padding: 1rem !important;
+  border-radius: 3rem !important;
+  transition: all ease-in-out 0.25s !important;
 }
 
 #slideRight , #slideLeft{
-  border: 1px solid #61765B;
-  background-color:#61765B ;
-  box-shadow: 2px ;
-  padding: 0.5rem 0.8rem;
-  color: rgb(255, 255, 255);
-  transition: all ease-in-out .5s;
-  cursor: pointer;
+  border: 1px solid #61765B !important;
+  background-color:#61765B !important;
+  box-shadow: 2px !important;
+  padding: 0.5rem 0.8rem !important;
+  color: rgb(255, 255, 255) !important;
+  transition: all ease-in-out .5s !important;
+  cursor: pointer !important;
 }
 
 #slideRight:hover , #slideLeft:hover{
