@@ -1,7 +1,7 @@
-import BlogOne from '../../assets/featured images/BlogOne.png'
-import BlogTwo from '../../assets/featured images/BlogTwo.png'
-import BlogThree from '../../assets/featured images/BlogThree.png'
-import BlogFour from '../../assets/featured images/BlogFour.png'
+import BlogOne from '../../assets/featuredimages/BlogOne.png'
+import BlogTwo from '../../assets/featuredimages/BlogTwo.png'
+import BlogThree from '../../assets/featuredimages/BlogThree.png'
+import BlogFour from '../../assets/featuredimages/BlogFour.png'
 
 const blogs = [
   { 
