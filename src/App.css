@@ -1,12 +1,169 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+} */
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center; */
+  background-color: #131A11 ;
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body::before{
+  content: "";
+  inset: 0;
+  position: absolute;
+  background: url("./assets/Mainbg.png");
+  background-repeat: no-repeat;
+  background-position: center top 80px;
+  background-size: 65rem auto;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+nav button:hover{
+  background-color: transparent !important;
+}
+
+button , #slideRight , #slideLeft {
+  margin: 0px 5px;
+  padding: 1rem;
+  border-radius: 3rem;
+  transition: all ease-in-out 0.25s;
+}
+
+#slideRight , #slideLeft{
+  border: 1px solid #61765B;
+  background-color:#61765B ;
+  box-shadow: 2px ;
+  padding: 0.5rem 0.8rem;
+  color: rgb(255, 255, 255);
+  transition: all ease-in-out .5s;
+  cursor: pointer;
+}
+
+#slideRight:hover , #slideLeft:hover{
+  border: 1px solid #ffffff37;
+  background-color:color-mix(in srgb, #61765B 60%, #0d4d0b72 40%);
+}
+
+h1{
+   font-family: "Roboto", sans-serif;
+}
+button:hover , #subsBtn:hover {
+  border-color: #4b743fab;
+  background-color:#4b743fab ;
+  transform: translateY(-3px);
+  box-shadow: 2px ;
+}
+
+.sellingCard{
+  transition: all ease-in-out .5s;
+}
+
+.cardImg{
+  transition: all ease-in-out .5s;
+}
+
+.sellingCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 2px ;
+}
+
+.sellingCard:hover .cardImg {
+  transform: scale(1.1);
+}
+
+.item{
+  background-color: #4b743fab;
+  border-radius: 100%;
+  width: 25rem;
+  height: 25rem;
+  margin: 1.6rem 0;
+  transition: all ease-in-out .4s;
+}
+
+.item:hover::before{
+  content: "";
+  top:0px ;
+  left:0px;
+  width: 25rem;
+  height: 25rem;
+  background: linear-gradient(to bottom, #16400b0e, #112f08);
+  position: absolute;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.icon{
+  background-color: #4b743fab;
+  border-radius: 100%;
+  width: 18rem;
+  height: 8rem;
+  transition: all ease-in-out .4s;
+}
+
+.icon i{
+  color: transparent;
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.956); 
+  text-stroke: 0.5px rgba(255, 255, 255, 0.761); 
+}
+
+
+.item img{
+  transition: all ease-in-out .6s;
+}
+
+.info{
+  transition: all ease .5s;
+  z-index: 4;
+}
+
+.item:hover .info{
+  opacity: 1;
+  z-index: 4;
+}
+
+
+footer input:focus , footer input:active{
+  outline: none;
+}
+
+footer input::placeholder{
+  letter-spacing: 2px;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-} */
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */ 
