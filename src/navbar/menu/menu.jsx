@@ -129,7 +129,7 @@ function Menu() {
                                         </div>
                                         <p className="text-[1rem] text-end mt-3 ml-2"><a href="" className="hover:text-[#A0E08D] transition-colors duration-[300ms] ease-in-out">Forgot Password?</a></p>
                                     </legend>
-                                    <button className={` bg-white/20 backdrop-blur-[2px] w-full mt-4 border border-white/20 text-lg`}>Submit</button>
+                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full mt-4 border border-white/20 text-lg`}>Submit</button>
                                     <div className="flex flex-col jusitfy-center items-center mt-[3rem]">
                                         <p className="text-[1.3rem] ">or , Login with</p>
                                         <div className="flex gap-4 mt-4">
@@ -183,7 +183,7 @@ function Menu() {
                                             {showConfirmPass ? <i className="bi bi-eye-slash-fill"></i> : <i className="bi bi-eye-fill"></i>}
                                         </button>
                                     </legend>
-                                    <button className={` bg-white/20 backdrop-blur-[2px] w-full mt-8 border border-white/20 text-lg`}>Submit</button>
+                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full mt-8 border border-white/20 text-lg`}>Submit</button>
                                     <div className="flex flex-col jusitfy-center items-center mt-[3rem]">
                                         <p className="text-[1.3rem] ">or , Signup with</p>
                                         <div className="flex gap-4 mt-4">
