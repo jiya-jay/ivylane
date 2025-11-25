@@ -1,5 +1,5 @@
 import MonsteraDeliciosa from '../../assets/MonsteraDeliciosa.png'
-import SnakePlant from '../../assets/Snake plant.png'
+import SnakePlant from '../../assets/Snakeplant.png'
 
 function HeroSection() {
 

@@ -1,5 +1,5 @@
 import Calathea from '../../assets/CalatheaOrbifolia.png'
-import FicusGinseng from '../../assets/FicusGinseng Bonsai.png'
+import FicusGinseng from '../../assets/FicusGinsengBonsai.png'
 import FicusMicrocarpa from '../../assets/FicusMicrocarpa.png'
 import OliveTree from '../../assets/MiniOliveTree.png'
 

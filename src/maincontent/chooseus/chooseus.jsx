@@ -1,4 +1,4 @@
-import OutdoorPlant from '../../assets/outdoor plant.png'
+import OutdoorPlant from '../../assets/outdoorplant.png'
 
 function ChooseUs(){
     return(
