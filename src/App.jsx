@@ -1,6 +1,7 @@
 // import { useState } from 'react'
-import './App.css'
 import './index.css'
+import './App.css'
+
 import Menu from './navbar/menu/menu'
 import Nav from './navbar/nav/nav'
 import HeroSection from './maincontent/herosection/hero'
