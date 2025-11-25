@@ -27,7 +27,7 @@ function App() {
           <Featured/>
           <ChooseUs/>
           <Services/>
-          {/* <Blog/> */}
+          <Blog/>
       </main>
       <footer>
           <Footer/>

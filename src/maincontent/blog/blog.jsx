@@ -1,6 +1,6 @@
-import BlogOne from '../../assets/featuredimages/BlogOne.png'
-import BlogThree from '../../assets/featuredimages/BlogThree.png'
-import BlogFour from '../../assets/featuredimages/BlogFour.png'
+import BlogOne from '../../assets/featuredimages/blogOne.png'
+import BlogThree from '../../assets/featuredimages/blogThree.png'
+import BlogFour from '../../assets/featuredimages/blogFour.png'
 
 const blogs = [
   { 
