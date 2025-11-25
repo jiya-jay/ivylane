@@ -21,7 +21,7 @@ nav button:hover{
   background-color: transparent !important;
 }
 
-button , #slideRight , #slideLeft {
+.btn, #slideRight , #slideLeft {
   margin: 0px 5px !important;
   padding: 1rem !important;
   border-radius: 3rem !important;

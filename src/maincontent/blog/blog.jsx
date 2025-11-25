@@ -36,7 +36,7 @@ function Blog() {
                         <h3 className='text-white text-[4rem] font-bold text-start'>Recent Blogs</h3>
                         <p className="text-white text-[1.4rem] mb-[6rem] w-[40rem]">Discover expert advice, care tips, and inspiring ideas to make your indoor and outdoor spaces greener and healthier.</p>
                     </div>
-                    <button className="text-white bg-white/10 border border-white/30 shadow-md ">Read All Articles</button>
+                    <button className="btn text-white bg-white/10 border border-white/30 shadow-md ">Read All Articles</button>
                 </div>
                 <div className="grid grid-cols-3 gap-16">
                     {blogs.map((blog, index) => (

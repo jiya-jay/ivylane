@@ -82,7 +82,7 @@ function Categories() {
                                 <i className="bi bi-chevron-right"></i>
                             </div>
                         </div>
-                        <button className="text-white bg-white/10 border border-white/30 shadow-md ">Explore Categories</button>
+                        <button className="btn text-white bg-white/10 border border-white/30 shadow-md ">Explore Categories</button>
                     </div>
                 </div>
                 <p className="text-white text-[1.4rem] px-[8rem] mb-[6rem]">Explore plants by type, care level, and purpose.</p>

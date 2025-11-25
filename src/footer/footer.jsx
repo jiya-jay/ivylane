@@ -86,7 +86,7 @@ function Footer() {
                                 disabled={subscribed}
                                 id="subsBtn"
                                 className={`
-                                    text-white border border-white/30 w-full mt-[2rem] transition-all duration-300 hover:bg-[#4b743fab]
+                                    btn text-white border border-white/30 w-full mt-[2rem] transition-all duration-300 hover:bg-[#4b743fab]
                                     ${subscribed ? 'bg-[#4b743fab] cursor-not-allowed' : 'bg-white/10 hover:bg-white/20'}
                                 `}
                                 onClick={update}

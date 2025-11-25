@@ -26,8 +26,8 @@ function HeroSection() {
                     <h1 className='text-[8rem] font-bold leading-[9rem] '>Fresh Plants for a Fresh Space</h1>
                     <p className='text-[1.3rem]'>Bring nature to your home, one plant at a time.</p>
                     <div className="flex ctas mt-8">
-                        <button className='bg-white/30 backdrop-blur-[6px] border border-white/20' onClick={scrollToSelling}>Discover Greenery</button>
-                        <button className='bg-white/30 border border-white/20 ' onClick={scrollToCategories}>Browse Categories</button>
+                        <button className='btn bg-white/30 backdrop-blur-[6px] border border-white/20' onClick={scrollToSelling}>Discover Greenery</button>
+                        <button className='btn bg-white/30 border border-white/20 ' onClick={scrollToCategories}>Browse Categories</button>
                     </div>
                 </div>
                 <div className="heroImgs m-0 p-0 relative w-[30rem] h-[35rem] ">

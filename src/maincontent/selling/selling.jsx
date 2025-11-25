@@ -35,7 +35,7 @@ function BestSelling(){
                         <h3 className='text-white text-[4rem] font-bold'>Best Selling</h3>
                         <p className="text-white text-[1.4rem]">Best Selling Plants — Our Most Loved Picks</p>
                     </div>
-                    <button className='text-white bg-white/10 border border-white/10'>View All Products</button>
+                    <button className='btn text-white bg-white/10 border border-white/10'>View All Products</button>
                 </div>
                 <div className="grid grid-cols-4 gap-10 mt-14 px-[8rem]">
                     {sellingCards.map((card , index)=>(
@@ -54,8 +54,8 @@ function BestSelling(){
                                 </div>
                             </div> 
                             <div className="flex">
-                                <button className='bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium '>Buy Now</button>
-                                <button className='bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium'>View Product</button>
+                                <button className=' btn bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium '>Buy Now</button>
+                                <button className='btn bg-white/30 backdrop-blur-[6px] border border-white/20 w-[10rem] my-10 text-white font-medium'>View Product</button>
                             </div>
                         </div>
                     ))}

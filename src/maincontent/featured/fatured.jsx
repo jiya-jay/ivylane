@@ -19,7 +19,7 @@ function Featured(){
                         <h3 className='text-white text-[4rem] font-bold text-center'>Featured</h3>
                         <p className="text-white text-[1.4rem]">Trending & Featured</p>
                     </div>
-                    <button className='text-white bg-white/10 border border-white/10'>View All Products</button>
+                    <button className='btn text-white bg-white/10 border border-white/10'>View All Products</button>
                 </div>
                 <div className="grid grid-cols-4 gap-10 mt-14 px-[8rem]">
                     {FeaturedCards.map((card , index)=>(
@@ -42,7 +42,7 @@ function Featured(){
                                             </div>
                                             <span>{card.price}</span>
                                         </div>
-                                        <button className='bg-white/10 border border-white/30'>Buy Now</button>
+                                        <button className='btn bg-white/10 border border-white/30'>Buy Now</button>
                                     </div>
                                 </div>
                             </div>
