@@ -46,11 +46,23 @@ nav button:hover{
 h1{
    font-family: "Roboto", sans-serif;
 }
-button:hover , #subsBtn:hover {
+button:hover ,  #subsBtn:hover {
   border-color: #4b743fab;
   background-color:#4b743fab ;
   transform: translateY(-3px);
   box-shadow: 2px ;
+}
+
+#loginBtn , #signupBtn{
+  margin:  5px !important;
+  padding: 1rem !important;
+  transition: all ease-in-out .5s !important;
+
+}
+
+.submitBtn{
+  margin-top: 1.8rem !important; 
+  transition: all ease-in-out .5s !important;
 }
 
 .sellingCard{

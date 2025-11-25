@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, use } from "react";
 
-const btnStyle = 'cursor-pointer hover:bg-transparent p-0 transform hover:scale-[1.2] hover:translate-y-[-3px]'
+const btnStyle = 'cursor-pointer hover:bg-transparent p-0 transform hover:scale-[1.2] hover:translate-y-[-3px] transition-all ease-in-out duration-[300ms]'
 const linkStyle = 'text-[#A0E08D] transition-colors duration-[300ms] w-full underline'
 const tabBtnStyle = 'hover:bg-white/10 border border-white/10 hover:border-white/10 rounded-[4px] w-full hover:text-[#A0E08D]'
 const formInpStyle = 'w-full bg-transparent placeholder:text-gray-100/80 font-thin placeholder:text-[1.2rem] focus:ring-0 focus:outline-none'
@@ -129,7 +129,7 @@ function Menu() {
                                         </div>
                                         <p className="text-[1rem] text-end mt-3 ml-2"><a href="" className="hover:text-[#A0E08D] transition-colors duration-[300ms] ease-in-out">Forgot Password?</a></p>
                                     </legend>
-                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full mt-4 border border-white/20 text-lg`}>Submit</button>
+                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full border border-white/20 text-lg submitBtn`}>Submit</button>
                                     <div className="flex flex-col jusitfy-center items-center mt-[3rem]">
                                         <p className="text-[1.3rem] ">or , Login with</p>
                                         <div className="flex gap-4 mt-4">
@@ -183,7 +183,7 @@ function Menu() {
                                             {showConfirmPass ? <i className="bi bi-eye-slash-fill"></i> : <i className="bi bi-eye-fill"></i>}
                                         </button>
                                     </legend>
-                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full mt-8 border border-white/20 text-lg`}>Submit</button>
+                                    <button className={`btn bg-white/20 backdrop-blur-[2px] w-full border border-white/20 text-lg submitBtn`}>Submit</button>
                                     <div className="flex flex-col jusitfy-center items-center mt-[3rem]">
                                         <p className="text-[1.3rem] ">or , Signup with</p>
                                         <div className="flex gap-4 mt-4">
@@ -207,7 +207,7 @@ function Menu() {
                 <a href="#" className="logoName tracking-[0.4rem] text-2xl">IVYLANE</a>
                 <div className="menuLinks flex gap-0 text-2xl p-4">
                     <div ref={wrapperRef} className="search group relative inline-block">
-                        <button className={btnStyle} onClick={handleSearch}>
+                        <button className={`${btnStyle} px-2`} onClick={handleSearch}>
                             <i className="bi bi-search cursor-pointer"></i>
                         </button>
                         <input
@@ -226,15 +226,15 @@ function Menu() {
                         />
                     </div>
                     <div>
-                        <button className={btnStyle} onClick={handleAcc}>
+                        <button className={`${btnStyle} px-2`} onClick={handleAcc}>
                             <i className="bi bi-heart cursor-pointer"></i>
                         </button>
                     </div><div>
-                        <button className={btnStyle} onClick={handleAcc}>
+                        <button className={`${btnStyle} px-2`} onClick={handleAcc}>
                             <i className="bi bi-person cursor-pointer text-[1.9rem]"></i>
                         </button>
                     </div><div>
-                        <button className={btnStyle} onClick={handleAcc}>
+                        <button className={`${btnStyle} px-2`} onClick={handleAcc}>
                             <i className="bi bi-cart2 cursor-pointer text-[1.8rem]"></i>
                         </button>
                     </div>
