@@ -1,7 +1,7 @@
-import Calathea from '../../assets/Calathea Orbifolia.png'
-import FicusGinseng from '../../assets/Ficus Ginseng Bonsai.png'
-import FicusMicrocarpa from '../../assets/Ficus Microcarpa.png'
-import OliveTree from '../../assets/Mini Olive Tree.png'
+import Calathea from '../../assets/CalatheaOrbifolia.png'
+import FicusGinseng from '../../assets/FicusGinseng Bonsai.png'
+import FicusMicrocarpa from '../../assets/FicusMicrocarpa.png'
+import OliveTree from '../../assets/MiniOliveTree.png'
 
 const FeaturedCards=[
     {name:'Calathea Orbifolia' , img:Calathea , price:'$18.00' , rating:'3.3'},

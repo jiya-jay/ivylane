@@ -1,12 +1,12 @@
-import ArecaPalm from "../../assets/Areca Palm.png";
-import ZZPlant from "../../assets/ZZ Plant.png";
-import BonsaiPlant from "../../assets/Bonsai style.png";
-import PeaceLily from '../../assets/Peace Lily.png'
-import Philodendron from '../../assets/Philodendron Birkin.png'
-import Rubber from '../../assets/Rubber Plant.png'
-import StringHeart from '../../assets/String of Hearts.png'
-import StringPearls from '../../assets/String of Pearls.png'
-import Juniper from '../../assets/Juniper Bonsai.png'
+import ArecaPalm from "../../assets/ArecaPalm.png";
+import ZZPlant from "../../assets/ZZPlant.png";
+import BonsaiPlant from "../../assets/Bonsaistyle.png";
+import PeaceLily from '../../assets/PeaceLily.png'
+import Philodendron from '../../assets/PhilodendronBirkin.png'
+import Rubber from '../../assets/RubberPlant.png'
+import StringHeart from '../../assets/StringofHearts.png'
+import StringPearls from '../../assets/StringofPearls.png'
+import Juniper from '../../assets/JuniperBonsai.png'
 
 
 const navItems = [

@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 
-import IndoorPlants from '../../assets/indoor plant.png'
-import OutdoorPlants from '../../assets/outdoor plant.png'
-import AirPurifying from '../../assets/air purifying.png'
-import LowMaintainance from '../../assets/low maintainance.png'
-import PetFriendly from '../../assets/pet friendly.png'
-import RarePlants from '../../assets/rare plants.png'
-import HomeDecor from '../../assets/home decor.png'
+import IndoorPlants from '../../assets/indoorplant.png'
+import OutdoorPlants from '../../assets/outdoorplant.png'
+import AirPurifying from '../../assets/airpurifying.png'
+import LowMaintainance from '../../assets/lowmaintainance.png'
+import PetFriendly from '../../assets/petfriendly.png'
+import RarePlants from '../../assets/rareplants.png'
+import HomeDecor from '../../assets/homedecor.png'
 import Succulents from '../../assets/Succulents.png'
 
 const slideItems = [

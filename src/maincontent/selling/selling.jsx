@@ -1,10 +1,10 @@
-import SnakePlant from '../../assets/Snake Plant.png'
-import ZZplant from '../../assets/ZZ Plant.png'
-import MonsterPlant from '../../assets/Monstera Deliciosa.png'
+import SnakePlant from '../../assets/SnakePlant.png'
+import ZZplant from '../../assets/ZZPlant.png'
+import MonsterPlant from '../../assets/MonsteraDeliciosa.png'
 import Pothos from '../../assets/Pothos.png'
-import ArecaPalm from '../../assets/Areca Palm.png'
-import AloeVera from '../../assets/Aloe vera.png'
-import AlocasiaPolly from '../../assets/Alocasia Polly.png'
+import ArecaPalm from '../../assets/ArecaPalm.png'
+import AloeVera from '../../assets/Aloevera.png'
+import AlocasiaPolly from '../../assets/AlocasiaPolly.png'
 import Anthurium from '../../assets/Anthurium.png'
 
 const sellingCards=[
