@@ -1,4 +1,4 @@
-import SnakePlant from '../../assets/SnakePlant.png'
+import SnakePlant from '../../assets/Snakeplant.png'
 import ZZplant from '../../assets/ZZPlant.png'
 import MonsterPlant from '../../assets/MonsteraDeliciosa.png'
 import Pothos from '../../assets/Pothos.png'
